@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Black+Ops+One&family=Dancing+Script:wght@500&family=Dosis:wght@500&family=Handjet&family=Josefin+Sans:wght@300&family=PT+Sans+Narrow&family=Poppins:wght@300;400;500&family=Roboto:wght@900&display=swap');
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    letter-spacing: 0.05rem !important;
+    background-color: #E9F7EF !important;
+}
+
+.navbarbtn {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 1.0rem !important;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 20px !important;
+    background-color: orangered !important;
+    border: none !important;
+}
+
+.btn:hover {
+    background-color: #c23400 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.listInner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    width: 75% !important;
+}
+
+.todoArea {
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.taskdescription {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.paraSection {
+    padding-top: 8%;
+    width: 60% !important;
+    font-size: 19px;
+}
+
+.cardList {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.list {
+    list-style: none !important;
+}
+
+.custom-footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-footer p {
+    margin: 0;
+}
